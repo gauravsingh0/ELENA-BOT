@@ -72,32 +72,31 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/2e343b17d41d4a28ad0f5.jpg"
 
-PM_START_TEXT = """
-`Heya` 🤗 `I am` **INNEXIA** `your group super bot`
-`I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
+PM_START_TEXT = """ `HI I AM` 😀 `COBRA GROUP HELP BOT` (https://telegra.ph/file/2e343b17d41d4a28ad0f5.jpg) ` A GROUP MANAGEMENT BOT `
+`I  AM  A  PRO  GROUP  MANAGEMENT  BOT  AND  PROVIDE  MANY  FEATURES  WHICH  YOU  COULD  GET  BY  DOING  /HELP !` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
+            text="❔HELPS AND COMMANDS❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ", url=f"https://github.com/DarkCybers/innexia"),
+        InlineKeyboardButton(text="🔥 FED CHANNEL", url=f"https://t.me/Cobra_fed_channel"),
         InlineKeyboardButton(
-            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://telegra.ph/Innexia-Vc-Player-08-19"
+            text="VOICE CHAT PLUGIN", url=f"https://telegra.ph/ㅤㅤㅤㅤㅤᶠᶠ-10-03"
         ),
     ],
     [
-        InlineKeyboardButton(text="📜 Aʙᴏᴜᴛ", callback_data="innexia_"),
+        InlineKeyboardButton(text=" ABOUT ME ", callback_data="innexia_"),
         InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ 👮", callback_data="innexia_basichelp"
+            text="ABOUT USAGE", callback_data="innexia_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Innexiabot?startgroup=true"),
+        InlineKeyboardButton(text=" ♨️ ADD COBRA TO YOUR SUPER GROUP ", url="http://t.me/cobra_Rayan_robot?startgroup=true"),
     ],
 ]
 
@@ -109,7 +108,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @SiderzDonate's 💕"""
+ @dynamo0149u 🥰"""
 
 IMPORTED = {}
 MIGRATEABLE = []
