@@ -72,9 +72,9 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/2e343b17d41d4a28ad0f5.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/f53d6ab9a8b8722d8932e.jpg"
 
-PM_START_TEXT = """ `HI I AM` 😀 `COBRA GROUP HELP BOT` (https://telegra.ph/file/2e343b17d41d4a28ad0f5.jpg) ` A GROUP MANAGEMENT BOT `
+PM_START_TEXT = """ `HI I AM` 😀 `COBRA GROUP HELP BOT` (https://telegra.ph/file/f53d6ab9a8b8722d8932e.jpg) ` A GROUP MANAGEMENT BOT `
 `I  AM  A  PRO  GROUP  MANAGEMENT  BOT  AND  PROVIDE  MANY  FEATURES  WHICH  YOU  COULD  GET  BY  DOING  /HELP !` 
 """
 
