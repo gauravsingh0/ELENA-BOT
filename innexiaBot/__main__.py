@@ -464,7 +464,7 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR INNEXIA DEV'S</b>\n"
+            text=f"<b> CREDIT FOR COBRA DEV'S</b>\n"
             f"\nHere Some Developers Helping in Making The Innexia Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
