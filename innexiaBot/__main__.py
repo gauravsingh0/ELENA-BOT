@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 INNEXIA_IMG = "https://telegra.ph/file/f53d6ab9a8b8722d8932e.jpg"
 
-PM_START_TEXT = """ `HI I AM` 😀 ` [Cobra Robot](https://telegra.ph/file/f53d6ab9a8b8722d8932e.jpg)\n\n ` A GROUP MANAGEMENT BOT `
+PM_START_TEXT = """ `HI I AM` 😀 ` [Cobra Robot](https://telegra.ph/file/f53d6ab9a8b8722d8932e.jpg)` A GROUP MANAGEMENT BOT `
 `I  AM  A  PRO  GROUP  MANAGEMENT  BOT  AND  PROVIDE  MANY  FEATURES  WHICH  YOU  COULD  GET  BY  DOING  /HELP !` 
 """
 
